@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -84,7 +85,8 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		background-image: url("../../images/rad.png");
+		background-size: contain;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1554,7 +1556,7 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				background: #fff;
+				background: rgba(white);
 				position: relative;
 				top: -0.65em;
 				display: inline;
@@ -1569,7 +1571,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: rgba(white);
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
@@ -2066,7 +2068,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
+		background: rgba(white);
 		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
@@ -2173,8 +2175,8 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
-		background-position: center center;
+		background: #0e0f0f url("../../images/header.gif");
+		background-position: center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
 		text-align: center;
@@ -2184,7 +2186,7 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: rgba(0, 162, 255, 0.25);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
@@ -2201,6 +2203,7 @@ input, select, textarea {
 				color: #d52349;
 				padding: 0;
 				font-style: normal;
+				font-weight: bold;
 				margin: 0;
 				font-size: 1.5em;
 			}
@@ -2266,7 +2269,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: white;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2283,15 +2286,16 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: rgba(white);
 		}
 
 /* Footer */
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: white;
 		padding: 4em 0;
+		background-color: darkblue;
 	}
 
 		#footer:before {
@@ -2300,7 +2304,6 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2318,8 +2321,10 @@ input, select, textarea {
 				color: inherit;
 			}
 
-		#footer ul.contact li,
-		#footer ul.dates li,
+		#footer ul.dates li {
+			background: firebrick;
+		}
+		 
 		#footer ul.divided li {
 			border-top-color: #353434;
 			border-top-color: rgba(255, 255, 255, 0.05);

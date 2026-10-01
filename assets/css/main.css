@@ -177,6 +177,16 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	nav {
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100vh;
+		font-weight: bold;
+	}
+
+	nav ul li a {
+		color: red
+	}
+
 /* Container */
 
 	.container {

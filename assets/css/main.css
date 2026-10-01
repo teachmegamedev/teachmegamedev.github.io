@@ -177,16 +177,6 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
-	nav {
-		background-color: rgba(0, 0, 0, 0.5);
-		height: 100vh;
-		font-weight: bold;
-	}
-
-	nav ul li a {
-		color: red
-	}
-
 /* Container */
 
 	.container {
@@ -1452,7 +1442,16 @@ input, select, textarea {
 			width: 92vw;
 			height: 110%
 		}
+		nav {
+			background-color: rgba(0, 0, 0, 0.5);
+			font-weight: bold;
+			height: 100vh;
 		}
+
+		nav a {
+			color: red
+		}
+	}
 
 /* Form */
 
